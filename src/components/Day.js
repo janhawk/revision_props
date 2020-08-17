@@ -5,7 +5,7 @@ class Day extends React.Component {
     render() {
 
         return(
-            <div className="box col-6 col-md-3">
+            <div className="box col-12 col-sm-6 col-md-4">
                 <h2>{this.props.dayName}</h2>
                 <h2>{this.props.dayNumber}</h2>
                 <p>{this.props.monthName}</p>
